@@ -1,0 +1,39 @@
+{
+  "name": "adyen-hpp-js",
+  "version": "1.0.0",
+  "description": "Hosted_Payment_Pages",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "superagent": "1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travelcar/adyen-hpp-js.git"
+  },
+  "keywords": [
+    "adyen",
+    "api",
+    "api-client",
+    "hpp",
+    "nodejs",
+    "swagger"
+  ],
+  "author": "Travelcar",
+  "bugs": {
+    "url": "https://github.com/travelcar/adyen-hpp-js/issues"
+  },
+  "homepage": "https://github.com/travelcar/adyen-hpp-js#readme"
+}
