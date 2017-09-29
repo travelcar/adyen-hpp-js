@@ -1,14 +1,17 @@
 {
   "name": "adyen-hpp-js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hosted_Payment_Pages",
   "license": "Apache-2.0",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
   },
+  "browser": {
+    "fs": false
+  },
   "dependencies": {
-    "superagent": "1.7.1"
+    "superagent": "3.5.2"
   },
   "devDependencies": {
     "mocha": "~2.3.4",
